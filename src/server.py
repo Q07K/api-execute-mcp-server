@@ -1,5 +1,5 @@
 """Module for initializing the MCP server."""
 
-from mcp.server import Server
+from mcp.server.fastmcp import FastMCP
 
-app = Server(name="api-execute-mcp-server")
+app = FastMCP(name="api-execute-mcp-server")
